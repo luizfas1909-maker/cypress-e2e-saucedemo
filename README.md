@@ -35,3 +35,9 @@ O projeto segue o padrão **Page Object Model (POM)**, promovendo:
 - Reutilização de código
 - Facilidade de manutenção
 - Separação entre lógica de teste e elementos da interface
+
+## 🔄 CI/CD
+
+O projeto possui integração com GitHub Actions, executando automaticamente os testes E2E com Cypress a cada push ou pull request.
+
+Em caso de falha, são gerados artefatos como screenshots e vídeos para análise.
